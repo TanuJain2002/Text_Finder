@@ -44,12 +44,12 @@ class _HomeState extends State<Home> {
         child: Center(
           child: SingleChildScrollView(
             child: Padding(
-              padding: const EdgeInsets.all(15.0),
+              padding: const EdgeInsets.all(18.0),
               child: Column(
                 children: [
                   TextField(
                     style: const TextStyle(
-                        fontSize: 18, fontWeight: FontWeight.w500),
+                        fontSize: 20, fontWeight: FontWeight.w500),
                     decoration: const InputDecoration(
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.all(Radius.circular(8.0)),
